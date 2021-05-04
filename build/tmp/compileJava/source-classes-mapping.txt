@@ -6,3 +6,8 @@ concurrency/ThreadSample.java
  concurrency.JobThreeThread
  concurrency.JobTwo
  concurrency.ThreadSample
+concurrency/SynchronizeSample.java
+ concurrency.MyThread
+ concurrency.Printer
+ concurrency.SynchronizeSample
+ concurrency.YourThread
