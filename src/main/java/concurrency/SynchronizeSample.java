@@ -67,8 +67,5 @@ public class SynchronizeSample {
         yourThread.start();
 
         System.out.println("#### Application Close #####");
-
-
-
     }
 }
