@@ -23,3 +23,5 @@ algorithm/MakingFileNamesUnique.java
  algorithm.MakingFileNamesUnique
 algorithm/leetcode/TwoSum.java
  algorithm.leetcode.TwoSum
+algorithm/stringprocessing/StringReverse.java
+ algorithm.stringprocessing.StringReverse
