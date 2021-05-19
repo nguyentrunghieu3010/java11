@@ -15,7 +15,24 @@ public class StringReverse {
         }
     }
 
+    private static void reverseCharacters() {
+        String input = "Hello";
+        char[] charArr = input.toCharArray();
+        int i = 0;
+        int j = charArr.length -1;
+
+        while (i<j) {
+            char temp = charArr[i];
+            charArr[i] = charArr[j];
+            charArr[j] = temp;
+            i++;
+            j--;
+        }
+        System.out.println(new String(charArr));
+    }
+
     public static void main(String[] args) {
         reverseWords();
+        reverseCharacters();
     }
 }
