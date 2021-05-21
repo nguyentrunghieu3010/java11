@@ -55,14 +55,28 @@ public class StringReverse {
             strArr[i] = strArr[size-i];
             strArr[size-i] = temp;
         }
-
         System.out.println("reverseCharacters3: " + new String(strArr));
     }
 
+    private static void findMax(int N) {
+        int lengthN = String.valueOf(N).length();
+        int maxValue = 0;
+        for(int i=0; i<=lengthN; i++) {
+            String result = Integer.toString(N);
+            result = new StringBuilder(result).insert(i, 5).toString();
+            int resultValue = Integer.valueOf(result);
+            if(maxValue < resultValue) {
+                maxValue = resultValue;
+            }
+        }
+        System.out.println("maxValue: " + maxValue);
+    }
+
     public static void main(String[] args) {
-        reverseWords();
-        reverseCharacters1();
-        reverseCharacters2();
-        reverseCharacters3();
+//        reverseWords();
+//        reverseCharacters1();
+//        reverseCharacters2();
+//        reverseCharacters3();
+        findMax(276);
     }
 }
