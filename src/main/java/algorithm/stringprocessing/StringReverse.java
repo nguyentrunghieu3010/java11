@@ -58,10 +58,14 @@ public class StringReverse {
         System.out.println("reverseCharacters3: " + new String(strArr));
     }
 
+    /**
+     * https://www.chegg.com/homework-help/questions-and-answers/write-function-solution-given-integer-n-returns-maximum-possible-value-obtained-inserting--q67448166
+     * @param N
+     */
     private static void findMax(int N) {
         int lengthN = String.valueOf(N).length();
         int maxValue = 0;
-        for(int i=0; i<=lengthN; i++) {
+        for(int i=1; i<=lengthN; i++) {
             String result = Integer.toString(N);
             result = new StringBuilder(result).insert(i, 5).toString();
             int resultValue = Integer.valueOf(result);
@@ -77,6 +81,6 @@ public class StringReverse {
 //        reverseCharacters1();
 //        reverseCharacters2();
 //        reverseCharacters3();
-        findMax(276);
+        findMax(-99);
     }
 }
