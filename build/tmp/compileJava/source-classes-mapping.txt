@@ -27,3 +27,5 @@ algorithm/stringprocessing/PalindromeIndex.java
  algorithm.stringprocessing.PalindromeIndex
 algorithm/stringprocessing/StringReverse.java
  algorithm.stringprocessing.StringReverse
+algorithm/leetcode/ReverseInteger.java
+ algorithm.leetcode.ReverseInteger
