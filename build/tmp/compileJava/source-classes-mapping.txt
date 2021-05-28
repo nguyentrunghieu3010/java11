@@ -5,6 +5,8 @@ concurrency/SynchronizeSample.java
  concurrency.YourThread
 algorithm/LongestPalindrome.java
  algorithm.LongestPalindrome
+algorithm/stringprocessing/StringReverse.java
+ algorithm.stringprocessing.StringReverse
 algorithm/DeviceNamesSystem.java
  algorithm.DeviceNamesSystem
 algorithm/UniversityCareerFair.java
@@ -19,13 +21,13 @@ concurrency/ThreadSample.java
  concurrency.ThreadSample
 NewFeatures.java
  NewFeatures
-algorithm/MakingFileNamesUnique.java
- algorithm.MakingFileNamesUnique
-algorithm/leetcode/TwoSum.java
- algorithm.leetcode.TwoSum
 algorithm/stringprocessing/PalindromeIndex.java
  algorithm.stringprocessing.PalindromeIndex
-algorithm/stringprocessing/StringReverse.java
- algorithm.stringprocessing.StringReverse
+algorithm/leetcode/TwoSum.java
+ algorithm.leetcode.TwoSum
+algorithm/MakingFileNamesUnique.java
+ algorithm.MakingFileNamesUnique
 algorithm/leetcode/ReverseInteger.java
  algorithm.leetcode.ReverseInteger
+algorithm/stringprocessing/StringConstruction.java
+ algorithm.stringprocessing.StringConstruction

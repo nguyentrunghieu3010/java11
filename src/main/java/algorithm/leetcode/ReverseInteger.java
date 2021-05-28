@@ -8,7 +8,8 @@ public class ReverseInteger {
     public static int reverseInteger(int x) {
         int rev = 0;
         while(x != 0) {
-            rev = rev * 10 + x % 10;
+            rev = rev * 10; // 0
+            rev += x % 10; // 0 =
             x = x / 10;
         }
 
